@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>E M Delafield</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on E M Delafield</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:40:49 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy-policy/</link>
+      <pubDate>Tue, 24 Mar 2026 17:40:49 +0000</pubDate>
+      <guid>http://localhost:1313/privacy-policy/</guid>
+      <description>&lt;p&gt;Last updated: 1 October 2025&lt;/p&gt;&#xA;&lt;p&gt;This privacy policy explains how I collect and use your personal data when you use this website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-i-am&#34;&gt;Who I Am&lt;/h2&gt;&#xA;&lt;p&gt;This website is operated by Tanya Izzard, based in the United Kingdom.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-data-i-collect&#34;&gt;What Data I Collect&lt;/h2&gt;&#xA;&lt;h3 id=&#34;newsletter&#34;&gt;Newsletter&lt;/h3&gt;&#xA;&lt;p&gt;When you sign up for my newsletter, I collect your email address. Newsletter subscriptions are managed by Buttondown, a third-party email service provider.&lt;/p&gt;&#xA;&lt;h3 id=&#34;website-analytics&#34;&gt;Website Analytics&lt;/h3&gt;&#xA;&lt;p&gt;I use Fathom Analytics to understand how visitors use this website. Fathom collects anonymous usage data (such as pages visited and referring sites) without using cookies or tracking you across other websites. No personal data is collected through analytics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About this website</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 24 Mar 2026 17:36:43 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;about-this-website&#34;&gt;About this website&lt;/h2&gt;&#xA;&lt;p&gt;This site has been built using Hugo and deployed with Netlify.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-tanya-izzard&#34;&gt;About Tanya Izzard&lt;/h2&gt;&#xA;&lt;p&gt;I discovered E. M. Delafield’s writing in my early thirties, and for the last twenty-five years I’ve been reading, re-reading and researching her work. After enjoying my MA in Modernism at the University of Sussex, I was attracted by the idea of a PhD - and EMD seemed like an ideal subject. Not much had been written about her, she produced a lot of work, and most of it during one of my favourite historical periods, between the two world wars of the twentieth century. The PhD did not exhaust my enthusiasm for EMD and the natural next step is her biography.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Biography</title>
+      <link>http://localhost:1313/biography/</link>
+      <pubDate>Tue, 24 Mar 2026 17:27:39 +0000</pubDate>
+      <guid>http://localhost:1313/biography/</guid>
+      <description>&lt;p&gt;E.M. Delafield was born Edmée Elizabeth Monica de la Pasture at 6 Walsingham Terrace in what is now Hove on 9 June 1890. Her father, Count Henry du Carel de la Pasture, was the youngest son of a family descended from the French aristocracy; he was 40 when she was born. His wife, Elizabeth Bonham, was 16 years his junior and the daughter of a member of the British Consular Service. EMD’s sister, Bettine Marie Yolande (always known as Yoé) was born in 1892. The de la Pastures were a Catholic family and their two daughters were brought up in the faith. The family moved about considerably during Delafield’s early childhood, living for a while in Devon,  but by 1901 they were established at The Priory, Llandogo, Monmouthshire.  In 1901, as the census tells us, the household included a French teacher, a governess and four domestic servants; Henry de la Pasture is described as “living on his own means”. Those means also extended to a London house, 62 Chester Square; the family’s income was supplemented by Mrs Henry de la Pasture’s successful literary career. From the mid-1890s until the First World War she published a number of novels for adults, as well as the children’s book for which she is now best known, The Unlucky Family (1907), and had several plays performed in London.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

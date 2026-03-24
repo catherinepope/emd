@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <script>
+    (function() {
+        
+        
+        const autoTheme = false;
+        if (autoTheme) {
+            document.documentElement.setAttribute('data-auto-theme', 'true');
+        }
+
+        const theme = localStorage.getItem('cleanwhite-theme') ||
+                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+    </script>
+
+    
+    <meta property="og:site_name" content="E M Delafield">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="http://localhost:1313//">
+    <meta property="twitter:image" content="http://localhost:1313//" />
+    
+
+    
+    <meta name="title" content="Biography" />
+    <meta property="og:title" content="Biography" />
+    <meta property="twitter:title" content="Biography" />
+    
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="" />
+    <meta property="twitter:description" content="" />
+    
+
+    <meta property="og:url" content="http://localhost:1313/biography/" />
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Biography | </title>
+
+    <link rel="canonical" href="/biography/">
+
+    
+
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
+
+    
+    <link rel="stylesheet" href="/css/theme-variables.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.min.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">E M Delafield</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                    
+
+		    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                    
+		            <li>
+                        <a href="#" id="theme-toggle" title="Toggle dark mode" style="opacity: 0;">
+                            <i class="fa fa-moon"></i>
+                            <i class="fa fa-sun" style="display: none;"></i>
+                        </a>
+		           </li>
+                    <script>
+                    (function() {
+                        
+                        var theme = localStorage.getItem('cleanwhite-theme') ||
+                                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                        var toggleBtn = document.getElementById('theme-toggle');
+                        if (toggleBtn) {
+                            var moonIcon = toggleBtn.querySelector('.fa-moon');
+                            var sunIcon = toggleBtn.querySelector('.fa-sun');
+
+                            if (theme === 'dark') {
+                                if (moonIcon) moonIcon.style.display = 'none';
+                                if (sunIcon) sunIcon.style.display = 'inline';
+                                toggleBtn.setAttribute('title', 'Switch to light mode');
+                            } else {
+                                if (moonIcon) moonIcon.style.display = 'inline';
+                                if (sunIcon) sunIcon.style.display = 'none';
+                                toggleBtn.setAttribute('title', 'Switch to dark mode');
+                            }
+
+                            
+                            requestAnimationFrame(function() {
+                                toggleBtn.style.transition = 'opacity 0.2s ease';
+                                toggleBtn.style.opacity = '1';
+                            });
+                        }
+                    })();
+                    </script>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        var navLinks = document.querySelectorAll('.navbar-collapse a');
+        navLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                if ($navbar.className.indexOf('in') > 0) {
+                    
+                    $navbar.className = " ";
+                    setTimeout(function(){
+                        if($navbar.className.indexOf('in') < 0) {
+                            $collapse.style.height = "0px"
+                        }
+                    },400)
+                }
+            });
+        });
+    });
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>E M Delafield </h1>
+                    
+		    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            
+            <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container">
+            
+                <p>E.M. Delafield was born Edmée Elizabeth Monica de la Pasture at 6 Walsingham Terrace in what is now Hove on 9 June 1890. Her father, Count Henry du Carel de la Pasture, was the youngest son of a family descended from the French aristocracy; he was 40 when she was born. His wife, Elizabeth Bonham, was 16 years his junior and the daughter of a member of the British Consular Service. EMD’s sister, Bettine Marie Yolande (always known as Yoé) was born in 1892. The de la Pastures were a Catholic family and their two daughters were brought up in the faith. The family moved about considerably during Delafield’s early childhood, living for a while in Devon,  but by 1901 they were established at The Priory, Llandogo, Monmouthshire.  In 1901, as the census tells us, the household included a French teacher, a governess and four domestic servants; Henry de la Pasture is described as “living on his own means”. Those means also extended to a London house, 62 Chester Square; the family’s income was supplemented by Mrs Henry de la Pasture’s successful literary career. From the mid-1890s until the First World War she published a number of novels for adults, as well as the children’s book for which she is now best known, The Unlucky Family (1907), and had several plays performed in London.</p>
+<p>Edmée and Yoé were educated at school as well as at home; Delafield attended convent schools in England and Belgium from the age of 10 to 17. The two sisters were extremely close and dependent on each other; both their family home and their schools constrained their freedom, and their mutual dependence was fostered by their mother’s publicly expressed disappointment that she had produced “shy, gawky” daughters rather than sons (McCullen, Maurice L., E. M. Delafield,  Twayne 1985, pp2-3). Delafield wrote in ‘Brides of Heaven’ (included in Violet Powell’s The Life of a Provincial Lady, Heinemann 1988, pp14-29) that her mother was “emotionally loving, terribly possessive” and unconsciously determined to ensure “that I should grow up to be nothing but an extension of her own personality” (Powell, p14); the family considered it a failure of loyalty, an important quality among the de la Pastures, to “admit that one was not happy at home”. The sisters’ interdependence and unhappiness were intensified still further by their father’s death in 1908; Delafield had made her social debut in London a year earlier. Like many of her fictional heroines, Delafield was unsuccessful in the Edwardian marriage market; in ‘Brides of Heaven’ she records that “I had, in common with the great majority of my contemporaries, been brought up to believe that it was something between a minor tragedy and a major disgrace, for a girl to remain unsought in marriage after her twentieth birthday […] I was acutely conscious of being a failure” (Powell, p14). Her mother had more success in this department: Mrs Henry de la Pasture married her second husband, Sir Hugh Clifford, a colonial administrator, in September 1910. Her daughters were told of her marriage only after the wedding, which took place while they were staying with their aunt. In January 1911 Sir Hugh and Lady Clifford departed for Ceylon, and when Edmée came of age six months later, she escaped her family and her sense of failure by entering a French religious community as a postulant nun.</p>
+<p>Delafield’s account of her time at the convent in ‘Brides of Heaven’ records the details of her experience, including physical discomforts as well as “the absolute destruction of the ‘self’” through a regime that ensured that “personalities in conversation were not only forbidden, but made impossible” (Powell, pp20-21). Delafield joined the convent partly to find useful work, and here she was successful: domestic work and teaching brought about a “change from discontented inactivity to ordered occupation, […] an absolute revelation of unsuspected enjoyment” (Powell, p21).  But after eight months as a postulant, when her superiors were beginning to consider that she could make her first vows and become a novice, Delafield learned that Yoé was also considering the religious life. Already doubting her own vocation and that she could meet the exacting requirements of the order, Delafield became convinced that she must leave the convent, and prevent Yoé from making a similar mistake. She confessed her wish to leave to the Novice-Mistress. Efforts were made to persuade her to stay; the strain caused her to lose three stones in weight, but eventually she was able to leave the convent.</p>
+<p>By the outbreak of the First World War, Delafield was back in Devon, and from 1914 to 1917 she worked as a clerk for the Volunteer Aid Detachment (VAD) at the Exeter Voluntary Aid Hospital. She was paid a pound a week and lodged in an Exeter hostel. As she had found in the convent, work could be liberating: “It was independence [&hellip;] it was emancipation of the most delirious kind, it was occupation, it was self-respect – above all, it was freedom” (Strong, L. A. G. (ed), Beginnings, Thomas Nelson &amp; Sons 1935, p72). In 1916 she began work, in her limited spare time, on her first novel, Zella Sees Herself. This novel was accepted by Heinemann and published in 1917; having already adopted ‘Elizabeth’ as her chosen first name, Delafield now took up Yoé’s suggested pseudonym, a translation of her surname and necessary to distinguish her work from her mother’s writing.</p>
+<p>Delafield’s literary output during her early years as a writer was considerable, with five novels published in three years. Her first earnings from Zella Sees Herself amounted to £54, a year’s VAD salary (Beginnings, p75) and the novel was positively reviewed. In 1917 Delafield took up a post in the regional headquarters of the Ministry of National Service in Bristol but continued to write, acquiring a literary agent in A.D. Peters and eventually signing a contract with Hutchinson for the publication of her novels (Powell, p38).</p>
+<p>Delafield met her husband, Paul Dashwood, through her mother, who had come to know Major Dashwood on a journey from the Gold Coast back to England in April 1919. A civil engineer, Paul had previously written Delafield a letter praising her books and was keen to meet her on his brief stay in England. Their courtship progressed quickly and they were married on 17 July 1919, leaving three months later for Hong Kong where Paul was to take up an appointment as the engineer of Hong Kong harbour. They lived in the Far East for two years, mainly in Singapore where their son Lionel was born in 1920. Delafield’s rate of publication slowed to one book a year in the first years of their marriage. Delafield rarely made use of the Far East setting in her fiction and wrote little about her experiences there; various sources suggest that life there did not suit her, and she was not willing to send her son back to England to be educated. The whole family returned to England in 1922 and by 1923 they were living in the house that would be their permanent home for the rest of Delafield’s life, Croyle, near Kentisbeare in Devon. Paul Dashwood took a post as land agent for a nearby estate, unable to find an engineering post. Alongside domestic duties and local positions as a magistrate and president of the Women’s Institute, Delafield developed her literary career, beginning to write book reviews and articles as well as fiction. In 1924 their daughter Rosamund was born at Croyle, and the family settled into a pattern in which nannies and governesses cared for the children and Delafield wrote whenever her family or social commitments would allow her to do so, making good use of small gaps in her busy schedule; she published at least one book, often two or three, each year until the end of her life.</p>
+<p>By 1929 Delafield had published 14 novels and two volumes of short stories, as well as a considerable body of journalism, much of it for Time and Tide; she was a member of the board of directors for the journal. In 1929, editor Margaret Rhondda commissioned the Diary of a Provincial Lady as a new light series for Time and Tide, needing a space-filler. Immediately successful, the collected articles were enlarged by 20,000 words for book-length publication; when published in 1930, Delafield’s work was the Book Society Book of the Month choice. The financial security provided by the success of Diary of a Provincial Lady enabled Delafield to rent a London flat, 57 Doughty Street in Bloomsbury, from 1931; until the early 1940s she spent part of each year in London , both children by this time being at boarding school. Her London life enabled her to develop existing friendships such as those with the psychiatrist Dr Margaret Posthuma, Cicely McCall and Lorna Lewis; Delafield came to rely greatly on Lorna Lewis who acted as an unofficial secretary to Delafield and aunt to her children, and was a regular visitor to Croyle. The London flat also enabled her to develop her professional, literary life and to increase her involvement with Time and Tide. This brought her into contact with a wide range of women writers and activists: Cicely Hamilton, Rebecca West, Vera Brittain, Winifred Holtby, Rose Macaulay, Kate O’Brien and Naomi Mitchison were all contributors to the periodical. Delafield met Virginia Woolf through her work at Time and Tide, leading to the publication of her two works of literary criticism by the Hogarth Press; the Woolfs visited Delafield at Croyle.</p>
+<p>EMD was also a successful playwright. The comedy To See Ourselves was produced at the Ambassador’s Theatre in London in 1931, in Australia in 1933 and in New York in 1935, as well as in repertory around the UK.  A second play, The Glass Wall, which draws on her convent experience, was performed at the Embassy Theatre.  Diary of a Provincial Lady increased Delafield’s reputation and popularity in America and she made two long publicity trips to the USA and Canada, firstly in 1933, this trip forming the basis of The Provincial Lady in America. In 1936 she visited the USSR for some months, including a prolonged and uncomfortable stay at a collective farm; she wrote of this experience in Straw Without Bricks: I Visit the Soviets (1937).</p>
+<p>Delafield’s career as a writer for radio and, subsequently, a broadcaster, developed throughout the 1930s. Her play To See Ourselves was adapted for radio and she produced a number of radio plays, including original dramas and adaptations from her own and others’ work. In the character of the Provincial Lady, she broadcast a series of talks entitled Home is Like That, and briefly reviewed fiction on the radio. In the early years of World War II, her broadcasting career resumed for propaganda purposes; the persona of the Provincial Lady was used to raise morale on the home front. Delafield was in demand as a lecturer, and apart from her broadcasting career undertook many speaking engagements; judging from archive copies of the brief notes for her wartime lectures, she was a fluent and adept speaker. Throughout the 1930s Delafield continued to publish fiction, and began to express greater hopes for the development of her work and its reception; she was disappointed with the critical response to Gay Life, for example, and disputed vigorously, if politely, with her publisher Macmillan over the style and content of Nothing is Safe. Her novels of this period are more innovative in terms of narrative and structure, and her tone and subject matter become darker in novels such as Faster! Faster! and Nothing is Safe.</p>
+<p>At the outbreak of war Delafield put her writing to patriotic use, supporting the war effort through her journalism and a revival of the Provincial Lady, who sees out the Phoney War of autumn 1939 working in the canteen of an Air Raid Precautions station. Delafield herself undertook a similar role before being sent, in 1940, on an official Ministry of Information mission to France. Possibly as a result of this, she wrote the propaganda booklet People You Love, published by the Ministry of Information and intended to garner the support of British women for the war effort.  After the death of her son in the war in 1940, she felt unable to write more of the Provincial Lady’s diaries, but produced two more novels before her death in 1943, both to rather lukewarm reviews.</p>
+<p>Lionel Dashwood’s death in November 1940 was due to gunshot wounds received while undergoing military training; an open verdict was recorded at the time, but it is likely to have been a suicide. As well as grieving for her son, Delafield became ill in 1941 with bowel cancer and underwent surgery in November that year, resulting in a colostomy. She continued to suffer ill-health during 1942 and in spring 1943, after six weeks of bed rest, underwent X-ray treatment in London, returning to Croyle with Kate O’Brien in August 1943. Between August and November 1943 Delafield kept up an active life, but by November Paul Dashwood was advised that he should make her last days “as painless as possible”; she was cared for at home by Kate O’Brien. She died at Croyle on 2 December 1943 and was buried next to her son’s grave in Kentisbeare churchyard.</p>
+<p><em>E.M. Delafield by Howard Coster, Photographs Collection NPG x1067. Used under a Creative Commons Licence © National Portrait Gallery, London</em></p>
+
+            
+             
+            
+
+
+
+
+            
+            </div>
+            
+            
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    
+    
+    
+    
+
+    
+    
+    
+    
+</div>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; E M Delafield 2026
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    (function() {
+        function updateTagcloudColors() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const startColor = isDark ? '#808080' : '#bbbbee';
+            if($('#tag_cloud').length !== 0 && $.fn.tagcloud) {
+                $.fn.tagcloud.defaults = {
+                    color: {start: startColor, end: '#0085a1'},
+                };
+                $('#tag_cloud a').tagcloud();
+            }
+        }
+
+        
+        $(document).ready(function() {
+            updateTagcloudColors();
+        });
+
+        
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.attributeName === 'data-theme') {
+                    updateTagcloudColors();
+                }
+            });
+        });
+
+        observer.observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ['data-theme']
+        });
+    })();
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<script src="/js/theme-toggle.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

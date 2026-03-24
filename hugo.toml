@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://stately-cassata-aa8181.netlify.app'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'E M Delafield'
+theme = 'hugo-theme-cleanwhite'
